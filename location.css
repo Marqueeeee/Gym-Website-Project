@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff5500, #ff9900);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 90px auto;
+  padding: 20px;
+  background-color: #a30000;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  text-align:justify;
+}
+
+.features p {
+  font-size: 1.05rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}

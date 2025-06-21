@@ -1,0 +1,88 @@
+.fit-ignite, .beside-text {
+    font-family: 'Luckiest Guy', cursive, "Anton";
+}
+.beside-text {
+    position: relative;
+    top: -2.5vw;
+    left: 4.8vw;
+    line-height: 0.2px;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+.fit-ignite {
+    display: inline;
+    position: absolute;
+    background-color: black;
+    left: 0;
+    top: 0;
+    width: 10vw;
+    height: 3.5vw;
+    float: left;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(170,18,17);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3.5vw;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 5;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in;
+    margin: 0 10px;
+    font-weight: bold;
+    font-family: "Helvetica";
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: rgb(0, 12, 34);
+}
+
+#fit {
+    color: red; 
+    text-indent: 63%; 
+    line-height: 0vw;
+    font-size: 1.2vw;
+    margin: 13px 0 0 0;
+}
+
+@keyframes igniteGlow {
+    0% { text-shadow: 0.1vw 0.1vw 1vw rgb(254, 97, 0); opacity: 1;}
+    50% { text-shadow: 0.1vw 0.1vw 0.5vw rgb(254, 208, 0); opacity: 0.5;} 
+    100% { text-shadow: 0.1vw 0.1vw 1vw rgb(254, 97, 0); opacity: 1;}
+}
+
+#ignite {
+    color: white; 
+    left: 0;
+    margin-top: 35px;
+    line-height: 2.8vw;
+    font-size: 1.5vw;
+    animation: igniteGlow 1s infinite;
+}
+
+#fi-icon {
+    position: absolute; 
+    left: 0; 
+    top: -10px; 
+    float: left; 
+    margin: 0, 20px, 20px, 0;
+    width: 5vw;
+    height: 5.25vw;
+
+}
